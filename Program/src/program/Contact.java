@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program;
 
 /**
  *
@@ -13,15 +12,27 @@ public class Contact {
     public String firstName;
     public String lastName;
     public String address;
-    
-    public Contact(String firstName, String lastName, String address){
+
+    public Contact(String firstName, String lastName, String address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
     }
-    
+
+    public String GetFnameContact() {
+        return firstName;
+    }
+
+    public String GetLnameContact() {
+        return lastName;
+    }
+
+    public String GetAddressContact() {
+        return address;
+    }
+
     @Override
-    public String toString(){
-        return this.firstName +" "+ this.lastName+ ", "+ this.address;
+    public String toString() {
+        return this.firstName + " " + this.lastName + ", " + this.address;
     }
 }
