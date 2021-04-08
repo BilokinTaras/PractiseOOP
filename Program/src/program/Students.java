@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -42,12 +40,6 @@ public class Students {
         return Department;
     }
 
-    ArrayList<Students> StudentList = new ArrayList<>();
-    Students student2 = new Students(id, Fam, Name, Groupa, Department);
-
-    public void AddStudents(Students student2) {
-        this.StudentList.add(student2);
-    }
 
     @Override
     public String toString() {
