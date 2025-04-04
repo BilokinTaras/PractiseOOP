@@ -1,1 +1,2 @@
 Continue automatization of commit
+Variable 1
