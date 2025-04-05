@@ -2,3 +2,4 @@ Continue automatization of commit
 Variable 1
 Variable 2
 Variable 3
+Variable 4
